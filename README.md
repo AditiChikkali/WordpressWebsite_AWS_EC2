@@ -2,6 +2,20 @@
 
 Deploying your WordPress Website on AWS EC2
 
+1.Launch an EC2 Instance:
+
+Log in to the AWS Management Console.
+Go to the EC2 service.
+Click on "Launch Instance" to start the instance creation wizard.
+Choose an Amazon Machine Image (AMI) that supports WordPress, such as an Amazon Linux 2 or Ubuntu Server.
+
+2.Launch an EC2 Instance:
+
+Log in to the AWS Management Console.
+Go to the EC2 service.
+Click on "Launch Instance" to start the instance creation wizard.
+Choose an Amazon Machine Image (AMI) that supports WordPress, such as an Amazon Linux 2 or Ubuntu Server.
+
 1. Install Apache server on Ubuntu
 sudo apt install apache2
 
@@ -47,4 +61,10 @@ sudo apt install certbot python3-certbot-apache
 
 14. Request and install ssl on your site with certbot
 sudo certbot --apache
+
+Access WordPress in a Browser:
+
+Obtain the public IP address of your EC2 instance from the AWS EC2 console.
+Open a web browser and enter the following URL:
+http://
 
